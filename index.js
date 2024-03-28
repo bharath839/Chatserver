@@ -32,7 +32,7 @@ console.log(`server started on port ${process.env.PORT}`);
 
 const io=socket(server,{
     cors: {
-     origin:"http://localhost:3000",
+     origin:"https://exquisite-pithivier-eadd4d.netlify.app",
      credentials :true  
     }
 })
